@@ -4,7 +4,7 @@ import com.android.volley.Request
 import com.android.volley.RequestQueue
 import com.android.volley.toolbox.Volley
 
-class BackendVolley: Application() {
+class BackendVolley : Application() {
     override fun onCreate() {
         super.onCreate()
         instance = this
@@ -37,7 +37,8 @@ class BackendVolley: Application() {
 
     companion object {
         private val TAG = BackendVolley::class.java.simpleName
-        @get:Synchronized var instance: BackendVolley? = null
+        @get:Synchronized
+        var instance: BackendVolley? = null
             private set
     }
 }

@@ -9,7 +9,7 @@ class BottomBarVMF : BaseVMF<BottomBarVM>() {
         return BottomBarVM(200, 30, 230)
     }
 
-    fun create(statsModel : StatsModel): BottomBarVM {
+    fun create(statsModel: StatsModel): BottomBarVM {
         return BottomBarVM(statsModel.total, statsModel.checked_in, statsModel.checked_out)
     }
 }

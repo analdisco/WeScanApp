@@ -1,2 +1,1 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="wetickets.wescanapp.data" />
+<manifest package="wetickets.wescanapp.data" />

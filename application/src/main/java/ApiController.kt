@@ -3,13 +3,12 @@ import models.requests.ActionCheckInTicketResponseModel
 import models.requests.ActionCheckOutTicketResponseModel
 import models.requests.ActionListTicketTypesResponseModel
 import models.requests.ActionListTicketsResponseModel
-import wetickets.wescanapp.domain.models.requests.*
 
 class ApiController : IApiController {
     val TAG = "WeTicketsServer"
 
     override fun actionListTickets(
-            basePath : String,
+            basePath: String,
             weTicketsCode: String,
             successHandler: (response: ActionListTicketsResponseModel) -> Unit,
             errorHandler: (errorType: String, msg: String) -> Unit) {
@@ -17,7 +16,7 @@ class ApiController : IApiController {
     }
 
     override fun actionListTicketTypes(
-            basePath : String,
+            basePath: String,
             weTicketsCode: String,
             successHandler: (response: ActionListTicketTypesResponseModel) -> Unit,
             errorHandler: (errorType: String, msg: String) -> Unit) {
@@ -25,7 +24,7 @@ class ApiController : IApiController {
     }
 
     override fun actionCheckInTicket(
-            basePath : String,
+            basePath: String,
             weTicketsCode: String,
             ticketCode: String,
             force: Boolean,
@@ -41,7 +40,7 @@ class ApiController : IApiController {
     }
 
     override fun actionCheckOutTicket(
-            basePath : String,
+            basePath: String,
             weTicketsCode: String,
             ticketCode: String,
             force: Boolean,

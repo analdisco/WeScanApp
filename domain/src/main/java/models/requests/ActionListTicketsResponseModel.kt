@@ -6,12 +6,12 @@ import java.io.Serializable
 import java.util.*
 
 data class ActionListTicketsResponseModel(
-        val server_time : String,
-        val error : Boolean,
-        val msg : String,
-        val list : Array<TicketModel>,
-        val stats : StatsModel,
-        val time : String)
+        val server_time: String,
+        val error: Boolean,
+        val msg: String,
+        val list: Array<TicketModel>,
+        val stats: StatsModel,
+        val time: String)
     : Serializable {
 
     override fun equals(other: Any?): Boolean {
