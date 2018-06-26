@@ -1,8 +1,8 @@
-package wetickets.wescanapp.domain.viewModelFactories.views
+package viewModelFactories.views
 
-import wetickets.wescanapp.domain.models.StatsModel
-import wetickets.wescanapp.domain.viewModelFactories.BaseVMF
-import wetickets.wescanapp.domain.viewModels.views.BottomBarVM
+import models.json.StatsModel
+import viewModelFactories.BaseVMF
+import viewModels.views.BottomBarVM
 
 class BottomBarVMF : BaseVMF<BottomBarVM>() {
     override fun mock(): BottomBarVM {

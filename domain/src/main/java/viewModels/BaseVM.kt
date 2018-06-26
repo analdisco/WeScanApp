@@ -1,0 +1,4 @@
+package viewModels
+
+class BaseVM {
+}

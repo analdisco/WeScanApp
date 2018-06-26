@@ -1,4 +1,4 @@
-package wetickets.wescanapp.domain.models.json
+package models.json
 
 import java.io.Serializable
 

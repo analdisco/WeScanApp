@@ -1,4 +1,4 @@
-package wetickets.wescanapp.domain.viewModelFactories
+package viewModelFactories
 
 abstract class BaseVMF<T> {
     abstract fun mock() :T

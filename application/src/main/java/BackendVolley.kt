@@ -10,12 +10,13 @@ class BackendVolley: Application() {
         instance = this
     }
 
-    val requestQueue: RequestQueue? = null
+    private val _requestQueue: RequestQueue? = null
+    private val requestQueue: RequestQueue?
         get() {
-            if (field == null) {
-                return Volley.newRequestQueue(applicationContext)
+            if (_requestQueue == null) {
+                return Volley.newRequestQueue(this.applicationContext)
             }
-            return field
+            return _requestQueue
         }
 
     fun <T> addToRequestQueue(request: Request<T>, tag: String) {
