@@ -1,4 +1,4 @@
-package wetickets.wescanapp.domain.viewModels
+package wetickets.wescanapp.domain.viewModels.activities
 
 class LoginActivityVM {
 
