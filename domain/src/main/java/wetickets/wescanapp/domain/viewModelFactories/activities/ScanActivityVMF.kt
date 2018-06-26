@@ -1,7 +1,7 @@
-package viewModelFactories.activities
+package wetickets.wescanapp.domain.viewModelFactories.activities
 
-import viewModelFactories.BaseVMF
-import viewModels.activities.ScanActivityVM
+import wetickets.wescanapp.domain.viewModelFactories.BaseVMF
+import wetickets.wescanapp.domain.viewModels.activities.ScanActivityVM
 
 class ScanActivityVMF : BaseVMF<ScanActivityVM>() {
     override fun mock(): ScanActivityVM {

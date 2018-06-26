@@ -1,7 +1,7 @@
-package models.requests
+package wetickets.wescanapp.domain.models.requests
 
-import models.json.StatsModel
-import models.json.TicketModel
+import wetickets.wescanapp.domain.models.json.StatsModel
+import wetickets.wescanapp.domain.models.json.TicketModel
 import java.io.Serializable
 import java.util.*
 
