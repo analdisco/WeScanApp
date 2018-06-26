@@ -5,7 +5,7 @@ import wetickets.wescanapp.domain.models.json.TicketModel
 import java.io.Serializable
 import java.util.*
 
-data class ActionListTicketsModel(
+data class ActionListTicketsResponseModel(
         val server_time : String,
         val error : Boolean,
         val msg : String,
@@ -18,7 +18,7 @@ data class ActionListTicketsModel(
         if (this === other) return true
         if (javaClass != other?.javaClass) return false
 
-        other as ActionListTicketsModel
+        other as ActionListTicketsResponseModel
 
         if (server_time != other.server_time) return false
         if (error != other.error) return false
