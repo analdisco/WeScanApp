@@ -1,2 +1,9 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="wetickets.wescanapp.application" />
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wetickets.wescanapp.application">
+
+    <application
+        android:name="BackendVolley">
+    </application>
+
+</manifest>
