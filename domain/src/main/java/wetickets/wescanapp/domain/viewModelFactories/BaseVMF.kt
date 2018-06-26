@@ -1,5 +1,5 @@
 package wetickets.wescanapp.domain.viewModelFactories
 
 abstract class BaseVMF<T> {
-    abstract fun create() :T
+    abstract fun mock() :T
 }

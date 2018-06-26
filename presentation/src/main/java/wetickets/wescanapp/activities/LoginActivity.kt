@@ -1,7 +1,8 @@
-package wetickets.wescanapp
+package wetickets.wescanapp.activities
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import wetickets.wescanapp.R
 
 class LoginActivity : AppCompatActivity() {
 

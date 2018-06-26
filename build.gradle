@@ -21,13 +21,18 @@ allprojects {
         google()
         jcenter()
     }
+    ext {
+        androidCompileSdkVersion = 28
+        androidMinSdkVersion = 15
+        androidTargetSdkVersion = 28
+    }
 }
 
 repositories {
     mavenCentral()
 }
 dependencies {
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 }
 compileKotlin {
     kotlinOptions {
