@@ -19,7 +19,7 @@ class LoginActivity : AppCompatActivity() {
                 {response -> onSuccess(response)},
                 {title, message -> onError(title, message)}
         )
-    }
+}
 
     private fun onSuccess(response: ActionListTicketsResponseModel) {
         var xxx: Int = 10
