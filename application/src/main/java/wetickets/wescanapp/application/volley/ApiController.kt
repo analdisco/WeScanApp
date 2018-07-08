@@ -1,10 +1,7 @@
 package wetickets.wescanapp.application.volley
 
-import android.util.Log
-import com.android.volley.AuthFailureError
 import com.android.volley.Request
-import com.android.volley.Response
-import com.android.volley.VolleyLog
+
 import com.android.volley.toolbox.JsonObjectRequest
 import com.google.gson.Gson
 import wetickets.wescanapp.domain.interfaces.api.IApiController
@@ -12,7 +9,6 @@ import wetickets.wescanapp.domain.models.requests.ActionCheckInTicketResponseMod
 import wetickets.wescanapp.domain.models.requests.ActionCheckOutTicketResponseModel
 import wetickets.wescanapp.domain.models.requests.ActionListTicketTypesResponseModel
 import wetickets.wescanapp.domain.models.requests.ActionListTicketsResponseModel
-import org.json.JSONObject
 
 class ApiController: IApiController {
 

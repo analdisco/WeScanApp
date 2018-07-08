@@ -1,4 +1,3 @@
 package wetickets.wescanapp.presentation.views
 
-class BottomBarView {
-}
+class BottomBarView

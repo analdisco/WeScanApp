@@ -16,18 +16,18 @@ class LoginActivity : AppCompatActivity() {
                 "https://admin.wetickets.ws",
                 "ZATERDAG",
                 "Test",
-                {response -> onSuccess(response)},
-                {title, message -> onError(title, message)}
+                { response -> onLoginSuccess(response) },
+                { title, message -> onLoginError(title, message) }
         )
-}
+    }
 
-    private fun onSuccess(response: ActionListTicketsResponseModel) {
+    private fun onLoginSuccess(response: ActionListTicketsResponseModel) {
         var xxx: Int = 10
         xxx++
         xxx++
     }
 
-    private fun onError(title: String, message: String) {
+    private fun onLoginError(title: String, message: String) {
         var xxx: Int = 10
         xxx++
         xxx++

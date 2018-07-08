@@ -1,4 +1,3 @@
 package wetickets.wescanapp.data
 
-class Realm {
-}
+class DbController
